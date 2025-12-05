@@ -1,0 +1,17 @@
+No,UseCase,Framework,Language,Styling,UIComponents,Additional,Reasoning,Keywords
+1,Landing Page,Next.js 14,TypeScript,Tailwind CSS,Preline,"Framer Motion, React Hook Form",SEO optimization with SSR; Professional UI components; Smooth animations; Form handling,"landing page, marketing, homepage, product page"
+2,Dashboard,Next.js 14,TypeScript,Tailwind CSS,Preline,"Recharts, Zustand",Fast rendering; Beautiful dashboard components; Powerful charts; State management,"dashboard, admin panel, analytics, data visualization"
+3,Blog,Next.js 14,TypeScript,Tailwind CSS,Preline,"MDX, Shiki",SEO-friendly; Professional blog UI; Rich content; Beautiful code blocks,"blog, articles, documentation, content site"
+4,E-commerce,Next.js 14,TypeScript,Tailwind CSS,Preline,"Stripe, Zustand",SEO for products; E-commerce components; Payment integration; Cart management,"e-commerce, shop, store, marketplace"
+5,SaaS App,Next.js 14,TypeScript,Tailwind CSS,Preline,"NextAuth, Prisma, Zustand",Full-stack framework; Professional UI; Database ORM; Authentication,"saas, web app, platform, service"
+6,Portfolio,Next.js 14,TypeScript,Tailwind CSS,Preline,"Framer Motion, MDX",SEO for personal brand; Modern portfolio UI; Smooth animations; Project showcase,"portfolio, personal site, resume, showcase"
+7,Documentation,Next.js 14,TypeScript,Tailwind CSS,Preline,"MDX, Shiki, Algolia DocSearch",Search optimization; Documentation components; Code highlighting; Dark mode support,"docs, documentation, guides, api docs"
+8,Corporate Website,Next.js 14,TypeScript,Tailwind CSS,Preline,"Framer Motion, React Hook Form",Professional appearance; Business components; Contact forms; SEO optimization,"corporate, business, company website"
+9,Admin Panel,Next.js 14,TypeScript,Tailwind CSS,Preline,"Prisma, NextAuth, React Query",Admin dashboard components; Authentication; Database integration; CRUD operations,"admin, cms, backend, management"
+10,Marketing Site,Next.js 14,TypeScript,Tailwind CSS,Preline,"Framer Motion, React Hook Form, Plausible",Marketing-focused UI; Analytics; Lead generation; Conversion optimization,"marketing, conversion, leads, analytics"
+11,SaaS Landing,Next.js 14,TypeScript,Tailwind CSS,Preline,"Stripe, React Hook Form, Framer Motion",SaaS-specific components; Pricing tables; Feature showcases; Sign-up flows,"saas landing, pricing, features, sign up"
+12,Web App,Next.js 14,TypeScript,Tailwind CSS,Preline,"NextAuth, Prisma, Zustand, React Query",Complete app UI; State management; Database; Authentication; Real-time updates,"web app, application, platform"
+13,E-learning Platform,Next.js 14,TypeScript,Tailwind CSS,Preline,"Prisma, NextAuth, Uploadthing, MDX",Course UI components; Video integration; Progress tracking; Content management,"e-learning, courses, education, lms"
+14,Social Platform,Next.js 14,TypeScript,Tailwind CSS,Preline,"Prisma, NextAuth, Uploadthing, Zustand",Social UI components; User profiles; Feed; Notifications; Real-time interactions,"social, community, network, feed"
+15,Booking System,Next.js 14,TypeScript,Tailwind CSS,Preline,"React Hook Form, Zustand, date-fns",Booking components; Calendar; Forms; Availability management; Scheduling,"booking, reservation, appointment, schedule"
+

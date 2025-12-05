@@ -1,0 +1,17 @@
+No,UserRequest,SubTask1,SubTask1Model,SubTask2,SubTask2Model,SubTask3,SubTask3Model,Reasoning
+1,create chat bot integrate with SDK,Chat bot UI design,Gemini 2.0 Flash,SDK integration logic,Claude Sonnet,,,UI design needs visual creativity; Integration needs code logic
+2,build dashboard with real-time updates,Dashboard UI layout,Gemini 2.0 Flash,Real-time data logic,Claude Sonnet,WebSocket setup,Claude Sonnet,Design for visuals; Logic for data handling
+3,landing page with form submission,Landing page design,Gemini 2.0 Flash,Form validation logic,Claude Sonnet,API endpoint,Claude Sonnet,Visual design for page; Logic for form and API
+4,e-commerce product page,Product page design,Gemini 2.0 Flash,Shopping cart logic,Claude Sonnet,Payment integration,Claude Sonnet,Design for UX; Logic for cart and payments
+5,blog with CMS,Blog layout design,Gemini 2.0 Flash,CMS backend,Claude Sonnet,Content editor,Gemini 2.0 Flash,Visual design for blog; Backend logic; Editor UX
+6,user authentication flow,Auth UI screens,Gemini 2.0 Flash,Auth logic + JWT,Claude Sonnet,Session management,Claude Sonnet,UX for auth flow; Security logic for auth system
+7,video platform,Video player UI,Gemini 2.0 Flash,Upload logic,Claude Sonnet,Streaming backend,Claude Sonnet,Player design; Upload and streaming logic
+8,social media feed,Feed UI design,Gemini 2.0 Flash,Post creation logic,Claude Sonnet,Real-time updates,Claude Sonnet,Feed visuals; Post logic; Real-time tech
+9,booking system,Booking UI flow,Gemini 2.0 Flash,Availability logic,Claude Sonnet,Calendar integration,Claude Sonnet,UX for booking; Logic for availability and calendar
+10,admin panel,Admin dashboard design,Gemini 2.0 Flash,CRUD operations,Claude Sonnet,Data tables,Claude Sonnet,Dashboard visuals; Backend CRUD; Table functionality
+11,portfolio with animations,Portfolio design,Gemini 2.0 Flash,Animation logic,Gemini 2.0 Flash,Project filtering,Claude Sonnet,Design and animations visual; Filtering logic
+12,chat application,Chat UI design,Gemini 2.0 Flash,Message logic,Claude Sonnet,WebSocket real-time,Claude Sonnet,Chat interface design; Message and real-time logic
+13,search with filters,Search UI,Gemini 2.0 Flash,Search algorithm,Claude Sonnet,Filter logic,Claude Sonnet,Search interface; Algorithm and filter logic
+14,notification system,Notification UI,Gemini 2.0 Flash,Push notification logic,Claude Sonnet,Queue management,Claude Sonnet,Toast/banner design; Notification logic and queuing
+15,map with markers,Map interface,Gemini 2.0 Flash,Location logic,Claude Sonnet,Marker clustering,Claude Sonnet,Map visualization; Location data; Clustering algorithm
+

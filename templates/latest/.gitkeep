@@ -1,0 +1,12 @@
+# This directory will contain your template files
+# Structure:
+# templates/
+#   latest/
+#     claude/
+#     cursor/
+#     windsurf/
+#     antigravity/
+#     copilot/
+#   v1.0.0/
+#     claude/
+#     ...

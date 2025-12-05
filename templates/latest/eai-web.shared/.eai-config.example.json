@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "framework": "Next.js",
+    "language": "TypeScript",
+    "styling": "Tailwind CSS",
+    "uiComponents": "Preline",
+    "stateManagement": "Zustand",
+    "database": "Prisma + PostgreSQL",
+    "auth": "NextAuth.js",
+    "testing": "Jest + React Testing Library"
+  },
+  "conventions": {
+    "componentStyle": "functional",
+    "indentation": 2,
+    "quotes": "single",
+    "semicolons": true,
+    "naming": {
+      "components": "PascalCase",
+      "files": "kebab-case",
+      "functions": "camelCase"
+    }
+  },
+  "structure": {
+    "components": "src/components",
+    "pages": "src/app",
+    "utils": "src/lib",
+    "styles": "src/styles",
+    "types": "src/types"
+  },
+  "preferences": {
+    "cssFramework": "tailwind",
+    "serverComponents": true,
+    "apiRoute": "app/api",
+    "comments": "JSDoc"
+  },
+  "modelRouting": {
+    "enabled": true,
+    "preferences": {
+      "design": "Gemini 2.0 Flash",
+      "ux": "Gemini 2.0 Flash",
+      "code": "Claude Sonnet",
+      "logic": "Claude Sonnet",
+      "copy": "Gemini 2.0 Flash"
+    },
+    "autoRecommend": true
+  }
+}
+

@@ -1,0 +1,23 @@
+No,Practice,Category,Keywords,Description,GoodExample,BadExample,Impact,Language
+1,Use Meaningful Names,Code Quality,naming variables functions readable,Variables and functions should clearly express intent,"getUserById(id); isAuthenticated()","getUserData(x); check()",High,Any
+2,Single Responsibility,Architecture,single responsibility srp function class,Each function/class should do one thing well,"function validateEmail(email) { return /regex/.test(email); }","function processUser() { validate(); save(); sendEmail(); }",High,Any
+3,DRY Principle,Code Quality,dry dont repeat yourself reusable,Don't Repeat Yourself - Extract common logic,"function formatCurrency(amount) { return `$${amount}`; }",Duplicate formatting code everywhere,High,Any
+4,Error Handling,Reliability,error handling try catch exceptions,Always handle potential errors properly,"try { await fetchData(); } catch (err) { logError(err); }",No error handling or silent catches,Critical,Any
+5,Input Validation,Security,validation sanitize input security,Validate and sanitize all user inputs,"if (!email || !isValidEmail(email)) throw new Error('Invalid email');",Directly using user input without validation,Critical,Any
+6,Use TypeScript,Type Safety,typescript types interface static typing,Add type safety to prevent runtime errors,"function add(a: number, b: number): number { return a + b; }","function add(a, b) { return a + b; }",High,TypeScript
+7,Avoid Magic Numbers,Code Quality,magic numbers constants readable,Use named constants instead of hardcoded values,"const MAX_RETRIES = 3; if (attempts > MAX_RETRIES) { ... }","if (attempts > 3) { ... }",Medium,Any
+8,Small Functions,Code Quality,small functions modular readable,Keep functions small and focused (< 20 lines),"function calculateTax(amount) { return amount * TAX_RATE; }","function processOrder() { /* 100+ lines */ }",Medium,Any
+9,Immutability,Functional,immutability pure functions state,Prefer immutable data structures,"const newArr = [...oldArr, item];","oldArr.push(item);",Medium,Any
+10,Async/Await,Modern JS,async await promises asynchronous,Use async/await over promise chains,"const data = await fetchUser(id);","fetchUser(id).then(data => { ... });",Medium,JavaScript
+11,Environment Variables,Security,env variables secrets config,Never hardcode secrets or config,"const API_KEY = process.env.API_KEY;","const API_KEY = 'sk-12345...';",Critical,Any
+12,Code Comments,Maintainability,comments documentation why not what,Explain WHY not WHAT the code does,"// Retry 3 times due to API rate limits","// Loop through array",Low,Any
+13,Consistent Style,Code Quality,style formatting prettier eslint,Use linters and formatters consistently,Use Prettier + ESLint with team config,Inconsistent indentation and spacing,Medium,Any
+14,Test Coverage,Quality Assurance,testing unit tests coverage tdd,Write tests for critical functionality,"test('validates email', () => { expect(isValidEmail('test@ex.com')).toBe(true); })",No tests for validation logic,High,Any
+15,Semantic HTML,Accessibility,semantic html a11y accessible seo,Use proper HTML5 semantic elements,"<header>, <nav>, <main>, <article>, <footer>","<div class='header'>, <div class='nav'>",High,HTML
+16,Responsive Design,UI/UX,responsive mobile first css media queries,Design for all screen sizes,"@media (max-width: 768px) { .container { width: 100%; } }",Fixed width layouts only,High,CSS
+17,Git Commit Messages,Workflow,git commit messages conventional,Write clear and descriptive commit messages,"feat: add user authentication\n\nImplements JWT-based auth","updated files; fixed stuff",Medium,Git
+18,Code Reviews,Quality,code review pull request pr peer review,Always review code before merging,Detailed PR reviews with constructive feedback,Merging without any review,High,Workflow
+19,Progressive Enhancement,Web,progressive enhancement graceful degradation,Build core functionality first then enhance,"Basic HTML form → Add validation → Add AJAX",Requires JavaScript for basic functionality,Medium,Web
+20,Performance Budgets,Performance,performance budget metrics optimization,Set and monitor performance metrics,"LCP < 2.5s, FID < 100ms, CLS < 0.1",No performance monitoring,High,Web
+
+

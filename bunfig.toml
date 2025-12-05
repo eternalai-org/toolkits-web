@@ -1,0 +1,11 @@
+[install]
+# Configure package installation
+cache = true
+registry = "https://registry.npmjs.org/"
+
+[install.scopes]
+# Add scoped registries if needed
+
+[test]
+# Test configuration
+preload = []

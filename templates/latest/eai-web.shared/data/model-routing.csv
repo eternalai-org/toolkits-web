@@ -1,0 +1,17 @@
+No,TaskType,BestModel,Reasoning,Keywords,Example
+1,Visual Design,Gemini 2.0 Flash,Strong visual understanding; Can analyze and generate design concepts; Good at color theory,design mockup wireframe visual layout colors aesthetics,Create a modern landing page design
+2,UI/UX Design,Gemini 2.0 Flash,Understands user experience; Good at interaction patterns; Visual reasoning,ui ux user experience interaction flow usability interface,Design a checkout flow with good UX
+3,Code Logic,Claude Sonnet,Superior code reasoning; Complex algorithms; Best practices; Architecture,logic algorithm function backend api complex,Implement authentication system with JWT
+4,Frontend Code,Claude Sonnet,React/Next.js expertise; Component structure; State management; TypeScript,frontend react nextjs component typescript jsx,Create a dashboard with data tables
+5,Backend Code,Claude Sonnet,API design; Database queries; Server logic; Security,backend api server database prisma sql,Build REST API with authentication
+6,Refactoring,Claude Sonnet,Code quality; Patterns; Performance; Maintainability,refactor optimize clean improve quality,Refactor this component for better performance
+7,Debugging,Claude Sonnet,Problem solving; Error analysis; Root cause; Fixes,debug fix error bug issue troubleshoot,Fix this authentication error
+8,Testing,Claude Sonnet,Test patterns; Edge cases; Coverage; Best practices,test unit integration e2e jest vitest,Write tests for this authentication flow
+9,Creative Copy,Gemini 2.0 Flash,Creative writing; Marketing copy; Engaging content,copy content writing marketing headline tagline,Write compelling hero section copy
+10,Data Analysis,Claude Sonnet,Data processing; Analysis; Insights; Calculations,data analysis statistics calculate aggregate,Analyze user behavior data
+11,Documentation,Claude Sonnet,Technical writing; Clear explanations; Examples,docs documentation readme guide tutorial,Write API documentation
+12,Animation,Gemini 2.0 Flash,Visual motion; Timing; Easing; Creative effects,animation motion transition framer gsap,Add smooth page transitions
+13,Accessibility,Claude Sonnet,A11y standards; ARIA; Keyboard nav; Best practices,accessibility a11y wcag aria screen reader,Make this form accessible
+14,Performance,Claude Sonnet,Optimization; Profiling; Best practices; Metrics,performance optimize speed fast lighthouse,Optimize page load performance
+15,Security,Claude Sonnet,Security patterns; Vulnerabilities; Best practices,security auth encrypt validate sanitize,Implement secure authentication
+

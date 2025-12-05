@@ -1,0 +1,18 @@
+No,Pattern,Category,Keywords,Description,Example,UseCase,Language,Framework
+1,Singleton,Creational,singleton design pattern instance,Ensures a class has only one instance and provides global access,"class Singleton { static instance; constructor() { if (Singleton.instance) return Singleton.instance; } }",Database connections,JavaScript,Any
+2,Factory,Creational,factory pattern object creation,Creates objects without specifying exact class,"function createUser(type) { if (type === 'admin') return new Admin(); return new User(); }",User creation systems,JavaScript,Any
+3,Observer,Behavioral,observer pattern event listener subscribe,Objects notify observers about state changes,"class Subject { observers = []; notify() { observers.forEach(o => o.update()); } }",Event systems,JavaScript,Any
+4,Repository,Data Access,repository pattern data access database,Mediates between domain and data mapping layers,"class UserRepository { findById(id) { return db.users.findOne({id}); } }",Database operations,TypeScript,Any
+5,MVC,Architectural,mvc model view controller architecture,Separates application into Model View Controller,Model: data logic; View: UI; Controller: business logic,Web applications,Any,Any
+6,SOLID Principles,Design,solid principles single responsibility,Five principles for maintainable code,S: Single Responsibility; O: Open/Closed; L: Liskov Substitution; I: Interface Segregation; D: Dependency Inversion,All applications,Any,Any
+7,REST API,API Design,rest api http endpoint resource,Architectural style for web services,"GET /users/:id; POST /users; PUT /users/:id; DELETE /users/:id",Web APIs,Any,Any
+8,Middleware,Architectural,middleware pipeline request response,Chain of processing for requests,"app.use((req, res, next) => { authenticate(req); next(); })",Web servers,JavaScript,Express
+9,Dependency Injection,Structural,dependency injection di container,Injects dependencies instead of creating them,"class UserService { constructor(userRepo) { this.repo = userRepo; } }",Testable code,TypeScript,Any
+10,Component,Structural,component reusable ui modular,"Self-contained, reusable piece of UI","function Button({ label, onClick }) { return <button onClick={onClick}>{label}</button>; }",UI development,JavaScript,React
+11,Hooks,Behavioral,hooks react state lifecycle,Reusable stateful logic in functional components,"function useCounter(initial) { const [count, setCount] = useState(initial); return [count, () => setCount(count + 1)]; }",React state management,JavaScript,React
+12,Service Layer,Architectural,service layer business logic separation,Encapsulates business logic separate from controllers,"class OrderService { async createOrder(data) { /* business logic */ } }",Business logic,TypeScript,Any
+13,Error Boundary,Error Handling,error boundary react catch error,Catches JavaScript errors in component tree,"class ErrorBoundary extends React.Component { componentDidCatch(error) { this.setState({ error }); } }",React error handling,JavaScript,React
+14,Memoization,Performance,memoization cache performance optimization,Caches function results for same inputs,"const memoized = useMemo(() => expensiveCalculation(a, b), [a, b]);",Performance optimization,JavaScript,React
+15,Lazy Loading,Performance,lazy loading code splitting dynamic import,Loads components/modules on demand,"const Component = lazy(() => import('./Component'));",Code optimization,JavaScript,React
+
+
