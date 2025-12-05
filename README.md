@@ -7,14 +7,14 @@ Install once, use `/eai-web` command to generate production-ready code with opti
 ## Installation
 
 ```bash
-bun install -g toolkits-web
+bun install -g @eternalai-org/toolkits-web
 ```
 
 > 💡 **Don't have Bun?** Install it first: [https://bun.sh/docs/installation](https://bun.sh/docs/installation)
 
 Or with npm:
 ```bash
-npm install -g toolkits-web
+npm install -g @eternalai-org/toolkits-web
 ```
 
 ## Usage

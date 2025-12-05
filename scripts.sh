@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Eternal Toolkits - Build & Publish Scripts
+# Toolkits Web - Build & Publish Scripts
 # Usage: ./scripts.sh [command]
 
 set -e  # Exit on error
@@ -71,8 +71,8 @@ test_local() {
     toolkits-web init --ai cursor
     
     # Verify files
-    if [ -f ".cursor/commands/eai.md" ]; then
-        print_success "Cursor command file created: .cursor/commands/eai.md"
+    if [ -f ".cursor/commands/eai-web.md" ]; then
+        print_success "Cursor command file created: .cursor/commands/eai-web.md"
     else
         print_error "Cursor command file NOT found!"
         exit 1
@@ -83,10 +83,10 @@ test_local() {
     toolkits-web init --ai antigravity
     
     # Verify files
-    if [ -f ".agent/workflows/eai.md" ] && [ -d ".shared/eai" ]; then
+    if [ -f ".agent/workflows/eai-web.md" ] && [ -d ".shared/eai-web" ]; then
         print_success "Antigravity files created successfully"
-        print_info "  - .agent/workflows/eai.md"
-        print_info "  - .shared/eai/"
+        print_info "  - .agent/workflows/eai-web.md"
+        print_info "  - .shared/eai-web/"
     else
         print_error "Antigravity files NOT found!"
         exit 1
@@ -157,8 +157,8 @@ publish_npm() {
     print_success "Published successfully! 🎉"
     
     VERSION=$(node -p "require('./package.json').version")
-    print_info "Package published: toolkits-web@$VERSION"
-    print_info "View on npm: https://www.npmjs.com/package/toolkits-web"
+    print_info "Package published: @eternalai-org/toolkits-web@$VERSION"
+    print_info "View on npm: https://www.npmjs.com/package/@eternalai-org/toolkits-web"
 }
 
 # Build and publish full flow
@@ -203,7 +203,7 @@ build_and_publish() {
 # Show help
 show_help() {
     echo ""
-    echo "Eternal Toolkits - Build & Publish Scripts"
+    echo "Toolkits Web - Build & Publish Scripts"
     echo ""
     echo "Usage: ./scripts.sh [command]"
     echo ""
